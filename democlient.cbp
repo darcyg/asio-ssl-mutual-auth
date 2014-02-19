@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="democlient" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/democlient" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="CMakeLists.txt" />
+		<Unit filename="Makefile" />
+		<Unit filename="README.md" />
+		<Unit filename="build_certs.sh" />
+		<Unit filename="certs/ca-cert.cer" />
+		<Unit filename="certs/ca-key.pem" />
+		<Unit filename="certs/ca.p12" />
+		<Unit filename="certs/old/dh512.pem" />
+		<Unit filename="certs/old/server.crt" />
+		<Unit filename="certs/old/server.csr" />
+		<Unit filename="certs/old/server.key" />
+		<Unit filename="certs/old/server.key.secure" />
+		<Unit filename="certs/server-cert.cer" />
+		<Unit filename="certs/server-key.pem" />
+		<Unit filename="certs/server.p12" />
+		<Unit filename="certs/test-cert.cer" />
+		<Unit filename="certs/test-cert.p12" />
+		<Unit filename="certs/test-key.pem" />
+		<Unit filename="client.cpp" />
+		<Unit filename="client_certs/dh512.pem" />
+		<Unit filename="client_certs/server.crt" />
+		<Unit filename="client_certs/server.csr" />
+		<Unit filename="client_certs/server.key" />
+		<Unit filename="client_certs/server.key.secure" />
+		<Unit filename="server.cpp" />
+		<Unit filename="ssldemo.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
